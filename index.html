@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compare Accessibility Testing Tools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Browser Extensions</a></li>
+        <li><a href="#">Stand-alone API/Testing</a></li>
+        <li><a href="#">Engine Subscription API</a></li>
+        <li><a href="#">AIM Report</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Compare Accessibility Testing Tools</h1>
+    <div class="search-container">
+      <input type="text" id="urlInput" placeholder="Enter website URL">
+      <button id="checkButton">Check It</button>
+    </div>
+    <section class="tools-list">
+      <h2>List of Accessibility Testing Tools</h2>
+      <div class="tool">
+        <img src="images/wave_logo.svg" alt="Wave Logo">
+        <h3>Wave</h3>
+      </div>
+      <div class="tool">
+        <img src="images/achecker_logo.svg" alt="Achecker Logo">
+        <h3>Achecker</h3>
+      </div>
+      <div class="tool">
+        <img src="images/lighthouse_logo.svg" alt="Lighthouse Logo">
+        <h3>Lighthouse</h3>
+      </div>
+    </section>
+    <section class="results" id="results">
+      <h2>Accessibility Test Results (for Demonstration Purposes Only)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Accessible Check</th>
+            <th>Wave</th>
+            <th>Achecker</th>
+            <th>Lighthouse</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Color Contrast</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button disabled>Compare</button></td>
+          </tr>
+          <tr>
+            <td>Empty Alt Text</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button disabled>Compare</button></td>
+          </tr>
+          </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>
+      <a href="#">Contact Us</a> |
+      <a href="#">About</a> |
+      <a href="#">Terms of Use</a> |
+      <a href="https://www.unt.edu/index.html">UNT</a>
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
